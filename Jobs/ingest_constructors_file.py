@@ -5,7 +5,7 @@ from conf import config
 from pyspark.sql.functions import current_timestamp
 
 my_conf = SparkConf()
-my_conf.set('spark.app.name', 'ingest_circuits_file')
+my_conf.set('spark.app.name', 'ingest_constructors_file')
 my_conf.set('spark.app.master', 'local[*]')
 
 spark = SparkSession.builder.config(conf=my_conf).getOrCreate()

@@ -6,7 +6,7 @@ from pyspark.sql.types import StructType, StructField, IntegerType, StringType, 
 from pyspark.sql.functions import current_timestamp, expr, to_timestamp, col
 
 my_conf = SparkConf()
-my_conf.set('spark.app.name', 'ingest_circuits_file')
+my_conf.set('spark.app.name', 'ingest_races_file')
 my_conf.set('spark.app.master', 'local[*]')
 
 spark = SparkSession.builder.config(conf=my_conf).getOrCreate()
