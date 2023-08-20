@@ -14,7 +14,7 @@ spark = SparkSession.builder.config(conf=my_conf).getOrCreate()
 results_schema = StructType(fields=[StructField('resultId', IntegerType(), False),
                                     StructField('raceId', IntegerType(), True),
                                     StructField('driverId', IntegerType(), True),
-                                    StructField('constructor', IntegerType(), True),
+                                    StructField('constructorId', IntegerType(), True),
                                     StructField('number', IntegerType(), True),
                                     StructField('grid', IntegerType(), True),
                                     StructField('position', IntegerType(), True),

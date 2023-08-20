@@ -21,3 +21,9 @@ laptimes_outpath = 'D:\\BigData\\Sparkfiles\\target\\lap_times'
 
 qualifying_path = 'D:\\BigData\\Sparkfiles\\raw\\qualifying'
 qualifying_outpath = 'D:\\BigData\\Sparkfiles\\target\\qualifying'
+
+final_results_path = 'D:\\BigData\\Sparkfiles\\target\\final_results'
+
+driver_standings = 'D:\\BigData\\Sparkfiles\\target\\driver_standings'
+
+constructor_standings = 'D:\\BigData\\Sparkfiles\\target\\constructor_standings'
